@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chocolate Pack</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<div  style="display: flex; width: 100%; " class="chocolate">
+    <div class="wrapper" >
+        <h2>Please Select the Chocolates</h2>
+        <div class="card-wrapper" id="chocolate-list" style="align-items: center;justify-content: center;"></div>
+    </div>
+    
+
+    <!-- Inside the cart-wrapper div -->
+<div class="cart-wrapper" style="position: fixed; right: 0;">
+    <h2>Custom Chocolate Pack</h2>
+    <hr class="divider" />
+    <h2 class="cart-items">Selected Items:</h2>
+    <hr class="divider" />
+    <ul class="ul" id="pack-list" ></ul>
+       <hr class="divider" />
+    <div class="total-price">
+        <h2>Total Price: $<span id="total-price">0</span></h2>
+    </div>
+ 
+    <hr class="divider" />
+    <button class="btn checkout" id="checkout">Checkout</button>
+</div>
+
+</div>
+   
+
+    <script src="chocolates.js"></script>
+    
+    
+</body>
+</html>

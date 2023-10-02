@@ -1,0 +1,142 @@
+
+
+body {
+    font-family: cursive !important;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.cart-wrapper,
+.wrapper {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: calc(70% - 30px);
+}
+
+h2 {
+    text-align: center;
+}
+
+.divider {
+    opacity: 0.3;
+    border-top: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-items,
+.ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.total-price,
+.pack-quantity,
+.pack-price {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.packs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout {
+    font-family: cursive!important;
+}
+
+.chip-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip {
+    margin: 5px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive!important;
+    padding: 2px;
+}
+
+.card-content h5 {
+    font-family: cursive!important;
+}
+
+.card-actions {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.pack-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; 
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 100%; /* Allow the wrapper to take up the full width */
+     
+    }
+
+    .cart-wrapper {
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+        margin: 0;
+        border-radius: 0; /* Remove border-radius for cart on small screens */
+    }
+}
